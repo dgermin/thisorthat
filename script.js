@@ -89,7 +89,7 @@ function showLeaderboard() {
     optionElement.classList.add("leaderboard-option");
     optionElement.innerHTML = `
       <img class="leaderboard-image" src="${option.image}">
-      <div class="leaderboard-count">${option.clickCount} <img src="heart.png" width="5" height="6"> </div>
+      <div class="leaderboard-count">${option.clickCount} <img src="heart.png" width="50" height="50"> </div>
     `;
     leaderboardElement.appendChild(optionElement);
   }
